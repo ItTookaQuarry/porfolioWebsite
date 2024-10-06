@@ -58,16 +58,17 @@ export default function Chessproject() {
           controls
           className="border-4 border-purple-500 rounded-lg shadow-lg  h-[200px] w-[300px] mds:h-[400px] mds:w-[500px]"
         >
+              <source
+            src="https://firebasestorage.googleapis.com/v0/b/stripesetup-7f02d.appspot.com/o/szachy.mp4?alt=media&token=4b0a6a43-921e-4c37-adbf-a8b13233d75c"
+            type="video/mp4"
+          />
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"
             srcLang="en"
             label="English"
           />
-          <source
-            src="https://firebasestorage.googleapis.com/v0/b/stripesetup-7f02d.appspot.com/o/szachy.mp4?alt=media&token=4b0a6a43-921e-4c37-adbf-a8b13233d75c"
-            type="video/mp4"
-          />
+      
         </video>
       </div>
     </>
