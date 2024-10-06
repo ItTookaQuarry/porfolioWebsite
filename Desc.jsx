@@ -3,6 +3,7 @@ import { LanguageContext } from './components/L';
 import React, { useContext } from 'react';
 import {Button} from "@nextui-org/button";
 import {Avatar} from "@nextui-org/avatar";
+import { Link } from '@nextui-org/link';
 export default function Desc() {
 
 
@@ -31,20 +32,20 @@ const resp = {
 
 
 const Aboutprojectsection = {
-en:["I made some projects.",   <Button color="secondary">
+en:["I made some projects.",   <Button color="secondary"  href='/projects' as={Link}   showAnchorIcon>
 You can see them here 
 </Button>  ],
-pl:["Zrobiłem kilka projektów.",   <Button color="secondary">
+pl:["Zrobiłem kilka projektów.",   <Button color="secondary" href='/projects' as={Link}  showAnchorIcon>
 Możesz je zobaczyć tutaj
 </Button>  ]
 }
 
 
 const Aboutpowerilftingsection = {
-en:["Powerilfting is my biggest passion.",   <Button color="secondary">
+en:["Powerilfting is my biggest passion.",   <Button color="secondary" href='/powerlifting' as={Link}  showAnchorIcon>
 You can learn about it here
 </Button>  ],
-pl:["Trójbój to moja największa pasja.",   <Button color="secondary">
+pl:["Trójbój to moja największa pasja.",   <Button color="secondary" href='/powerlifting' as={Link}    showAnchorIcon>
 Możesz się o tym dowiedzieć tutaj
 </Button>  ]
 }

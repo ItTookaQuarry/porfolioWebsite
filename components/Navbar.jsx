@@ -84,11 +84,11 @@ export default function Nav() {
           </>
         ))}
          <div className="grid gap-5">
-         <InstagramIcon/>
-       
-        <LinkedInIcon/>
    
-        <GitHubIcon />
+         <Link href="https://www.instagram.com/przemyslawkoniecznyy/?igsh=cWI4Z3V1eDB1dXVv&utm_source=qr">    <InstagramIcon/></Link>
+        <Link href="https://www.linkedin.com/in/przemys%C5%82aw-konieczny-2979a4266/">   <LinkedInIcon/></Link>
+   <Link href="https://github.com/ItTookaQuarry"> <GitHubIcon  /></Link>
+       
   
 
 
