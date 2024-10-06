@@ -9,7 +9,10 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
+		"@huggingface/inference": "^2.8.0",
+		"@nextui-org/avatar": "^2.0.33",
 		"@nextui-org/button": "2.0.37",
+		"@nextui-org/calendar": "^2.0.11",
 		"@nextui-org/code": "2.0.32",
 		"@nextui-org/input": "2.2.4",
 		"@nextui-org/kbd": "2.0.33",
@@ -22,13 +25,20 @@
 		"@nextui-org/theme": "2.2.9",
 		"@react-aria/ssr": "3.9.4",
 		"@react-aria/visually-hidden": "3.8.12",
+		"assemblyai": "^4.6.1",
+		"axios": "^1.7.2",
 		"clsx": "2.1.1",
 		"framer-motion": "~11.1.1",
 		"intl-messageformat": "^10.5.0",
+		"microsoft-cognitiveservices-speech-sdk": "^1.38.0",
+		"mssql": "^11.0.1",
 		"next": "14.2.4",
 		"next-themes": "^0.2.1",
+		"pica": "^9.0.1",
 		"react": "18.3.1",
-		"react-dom": "18.3.1"
+		"react-dom": "18.3.1",
+		"react-file-reader": "^1.1.4",
+		"react-media-recorder": "^1.6.6"
 	},
 	"devDependencies": {
 		"@types/node": "20.5.7",

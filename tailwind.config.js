@@ -8,7 +8,20 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    screens: {
+      'xs':'100px',
+      'sm': '576px',
+      'mds': '700px',
+      'mdss': '800px',
+      'md': '960px',
+      'lg': '1440px',
+    },
+    extend: {
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive'],
+        'vt323': ['VT323', 'monospace'],
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
