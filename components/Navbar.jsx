@@ -27,7 +27,7 @@ export default function Nav() {
   const menuItems = {
     pl: [{text:"O Mnie",link:'/'},{text:"Moje projekty",link:'/projects'},{text:"Trójbój",link:'/powerlifting'} ],
 
-    en: [{text:"About me",link:'/'}, {text:"My projects",link:'/projects'}, {text:"Powerlifting",link:'/powerilfting'}],
+    en: [{text:"About me",link:'/'}, {text:"My projects",link:'/projects'}, {text:"Powerlifting",link:'/powerlifting'}],
   };
 
   const active =
@@ -59,7 +59,7 @@ export default function Nav() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="powerlifting"
+            href="/powerlifting"
             className={isActive("Powerlifting") ? `${active}` : `${active}`}
           >
             {language == "pl" ? "Trójbój" : "Powerlifting"}
