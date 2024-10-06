@@ -60,7 +60,7 @@ export default function EcommerceProject() {
         </h1>
         <video
           controls
-          class="border-4 m-auto border-purple-500 rounded-lg shadow-lg  h-[200px] w-[300px] mds:h-[400px] mds:w-[500px]"
+          className="border-4 m-auto border-purple-500 rounded-lg shadow-lg  h-[200px] w-[300px] mds:h-[400px] mds:w-[500px]"
         >
           <track
             src="/path/to/captions.vtt"
