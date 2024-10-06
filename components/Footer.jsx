@@ -15,23 +15,23 @@ export default function Footer() {
 <>
 <div className="w-[1px]  text-[2px] text-white">{"1"}</div>
     <footer 
-      class=" font-vt323  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 text-white text-center text-neutral-600 dark:text-neutral-200 lg:text-left"
+      className=" font-vt323  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 text-white text-center text-neutral-600 dark:text-neutral-200 lg:text-left"
       style={{ backgroundColor: "black", bottom: "0" }}
     >
-      <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500  text-white">
-        <div class="mr-12 hidden lg:block">
+      <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500  text-white">
+        <div className="mr-12 hidden lg:block">
           
         </div>
 
-        <div class="flex justify-center">
+        <div className="flex justify-center">
    
       
 
      
-          <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+          <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-white h-4 w-4"
+              className="text-white h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -41,17 +41,17 @@ export default function Footer() {
           <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-white h-4 w-4"
+              className="text-white h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
               <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
             </svg>
           </a>
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200">
+          <a href="#!" className="text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-white h-4 w-4"
+              className="text-white h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -61,11 +61,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div class="mx-6 py-10 text-center md:text-left text-white font-semibold items-center">
-        <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-2 items-center">
+      <div className="mx-6 py-10 text-center md:text-left text-white font-semibold items-center">
+        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-2 items-center">
           <div>
             <Link
-              class="mb-4 flex items-center justify-center text-white  justify-center"
+              className="mb-4 flex items-center justify-center text-white  justify-center"
               href={"/"}
             >
             {language == 'pl' ? "O mnie" : "About me"}
@@ -78,7 +78,7 @@ export default function Footer() {
                 {language == 'pl' ? "Moje projekty" : "My Projects"}
             </Link>
             <Link
-              class="mb-4 flex items-center justify-center font-white  md:justify-center"
+              className="mb-4 flex items-center justify-center font-white  md:justify-center"
            href={'/'}
             >
             {language == 'pl' ? "Trójbój" : "Powerlifting"}
