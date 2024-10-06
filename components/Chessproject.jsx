@@ -54,6 +54,7 @@ export default function Chessproject() {
         <h1 className="text-center block mds:hidden">
           {language == "pl" ? "Wirtualne Szachy" : "Chess website"}
         </h1>
+        {/* eslint-disable jsx-a11y/media-has-caption */}
         <video
           controls
           className="border-4 border-purple-500 rounded-lg shadow-lg  h-[200px] w-[300px] mds:h-[400px] mds:w-[500px]"
@@ -67,7 +68,7 @@ export default function Chessproject() {
             kind="subtitles"
             srcLang="en"
             label="English"
-          />
+          />       Your browser does not support the video tag.
       
         </video>
       </div>
